@@ -707,8 +707,8 @@ a {
 p {
     font-size: 14px;
     margin: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .tight-width-whitespace {
@@ -718,12 +718,13 @@ p {
 
 h1 {/*point avant h1 enlevé*/
     font-size: 35px;
-    font-family: "Open Sans";
+    text-transform: uppercase;
+    /*font-family: "Open Sans";*/
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: black;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +737,7 @@ h1 {/*point avant h1 enlevé*/
 }
 
 h2 {
-    font-size: 30px;/**/
+    font-size: 25px;/**/
     font-weight: 700;/**/
     text-transform: uppercase;
     /*line-height: 1.4em;*/
@@ -747,11 +748,6 @@ h3 {
     text-transform: uppercase;/**/
     font-weight: 700;
     /*color: #333333!important;*/
-}
-
-h4 {
-    font-size: 18px;
-    margin: 0;
 }
 
 /*.med-width-whitespace {
@@ -816,9 +812,13 @@ h4 {
     color: white;
 }
 
+.tc-black {
+    color: #181818;
+}
+
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: white;
+    /*color: #FFFFFF!important;*/
 }
 
 .btn-atomic-tangerine:hover {
