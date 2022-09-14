@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<!--<meta name="keywords" content="">-->
+		<meta name="description" content="Contactez votre Agence La Panthère spécialisée dans le domaine du webdesign à Lyon, nous vous accompagnerons dans votre stratégie de création graphique de site web responsive, 100% optimisé Mobile + UI + UX.">
+		<!--Description rajoutée-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+		<link rel="shortcut icon" type="image/png" href="style/img/favicon.jpg">   
+		<link rel="stylesheet" type="text/css" href="style/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="style/css/style.css">
+		<link rel="stylesheet" type="text/css" href="style/css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="style/css/et-line.css">
+		
+		<script src="./js/jquery-2.1.0.js"></script>
+		<script src="./js/bootstrap.js"></script>
+		<script src="./js/blocs.js"></script>
+		<script src="./js/jqBootstrapValidation.js"></script>
+		<script src="./js/formHandler.js"></script>
+
+		<title>Contactez-nous</title><!--Titre modifié-->   
+	</head>
+
+	<body><!-- Tout le style situé dans les fichiers HTML a été supprimé-->
+		<header><!--Balise rajoutée-->
+			<nav class="navbar row"><!--Balise déplacée-->
+				<div class="bloc l-bloc">
+					<a class="navbar-brand" href="home.html"><img src="style/img/agence-la-panthere-monochrome.svg" alt="Logo de l'agence la panthère"/></a><!--height="40"-->
+					
+					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<span class="sr-only"><!--Toggle navigation--></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button>
+
+					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<ul class="site-navigation nav navbar-nav">
+							<li><a href="home.html">Accueil</a></li>
+							<!--<li></li>-->
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>					
+				</div>
+			</nav>
+
+			<div class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+				<div class="container bloc-lg">
+					<div class="row">
+						<div class="col-sm-12">
+							<img src="style/img/logo.png" class="center-block image-resize-mode" alt="Logo de l'agence la panthère"/>
+
+							<h1 class="text-center hero-bloc-text tc-white">Agence La Panthère<br>Formulaire de contact</h1>
+
+							<p class="text-center mg-lg tc-white tight-width-whitespace">Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>Parlez-nous de votre projet en complétant le formulaire ci-dessous.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="bloc l-bloc" id="bloc-7">
+			<div class="container bloc-lg">
+				<div class="row row-center">
+					<div class="col-sm-6">
+						<form method="post" id="form_1">
+							<div class="form-group">
+								<label>Nom</label>
+								<input id="name" class="form-control" required />
+							</div>
+
+							<div class="form-group">
+								<label>Adresse email</label>
+								<input id="email" class="form-control" type="email" required />
+							</div>
+
+							<div class="form-group">
+								<label>Comment nous avez-vous connu ?</label>
+								<input class="form-control" type="email" required/>
+							</div>
+
+							<div class="form-group">
+								<label>Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+								<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</div> 
+
+							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">Envoyer</button>
+						</form>
+					</div>
+				</div>
+
+				<p class="text-center"><a href="contact@agencelapanthere.com">contact@agencelapanthere.com</a></p>
+			</div>
+		</div>
+
+		<footer><!--Balise rajoutée-->
+			<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+				<div class="row">
+					<div class="col-sm-12">
+						<h4 class="text-center tc-white">Agence La Panthère - Entreprise de web design à Lyon</h4>
+
+						<p class="text-center tc-white" >2 place Sathonay 69001 Lyon</p>
+
+						<p class="text-center tc-white">Ouvert de 9h à 18h, du lundi au vendredi</p>
+
+						<div class="row row-no-gutters social">
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://twitter.com/"><span class="fa fa-twitter icon-md tc-white"></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.facebook.com/"><span class="fa fa-facebook icon-md tc-white"></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://dribbble.com/"><span class="fa fa-dribbble icon-md tc-white"></span></a>
+								</div>
+							</div>
+
+							<div class="col-sm-3">
+								<div class="text-center">
+									<a class="social" href="https://www.instagram.com/"><span class="fa fa-instagram icon-md tc-white"></span></a>
+								</div>
+							</div>
+
+							<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>		
+	</body>
+</html>
+
+<!--novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"-->
+
+<!--id="bloc-0"-->
+
+<!--bgc-white-->
+
+<!--<div class="container bloc-sm">-->
+<!--<div class="navbar-header">-->
+<!--<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
+<!--<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
