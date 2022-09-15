@@ -33,7 +33,7 @@ ul{/**/
 }
 
 .image-resize-mode{
-    width: 150px;
+    width: 120px;
 }
 
 /*a:hover {
@@ -41,14 +41,14 @@ ul{/**/
     cursor: pointer;
 }*/
 
-#page-loading-blocs-notifaction {
+/*#page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
+}*/
 
 .bloc {
     width: 100%;
@@ -302,8 +302,9 @@ ul{/**/
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 0;
 }
 
 #bloc-1-hero /*h1*/ {
@@ -464,8 +465,10 @@ nav .caret {
 
 .mg-md {
     margin: 0;
-    padding-top: 5px;
+    padding-top: 15px;
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .mg-lg {
@@ -504,7 +507,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 40px!important;
 }
 
 .icon-lg {
@@ -717,7 +720,7 @@ p {
 }*/
 
 h1 {/*point avant h1 enlevé*/
-    font-size: 44px;
+    font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-bottom: 10px;
     margin-top: 20px;
@@ -734,23 +737,23 @@ h1 {/*point avant h1 enlevé*/
 }
 
 .social {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto auto auto auto;
 }
 
 h2 {
-    font-size: 28px;/**/
-    font-weight: 700;/**/
+    font-size: 30px;/**/
+    font-weight: lighter;
     text-transform: uppercase;
     /*line-height: 1.4em;*/
 }
 
 h3 {
-    font-size: 16px;
-    
+    font-size: 20px;
     font-weight: 700;
-    margin: 0;/**/
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0;
+    margin-bottom: 4px;
     /*color: #333333!important;*/
 }
 
@@ -861,6 +864,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("../img/agence-la-panthere.jpg");
+    background-color: #F3976C;
 }
 
 .bg-presentation {
@@ -1016,10 +1020,10 @@ h4 {
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 10px;/**/
-        padding-right: 10px;/**/
-    }
+    /*.bloc {
+        padding-left: 10px;
+        padding-right: 10px;
+    }*/
     /*.bloc-xxl,
     .bloc-xl,
     .bloc-lg {
@@ -1071,12 +1075,12 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
     .bloc {
-        padding-left: 10px;/**/
-        padding-right: 10px;/**/
+        padding-left: 10px;
+        padding-right: 10px;
     }
-}
+}*/
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
