@@ -33,7 +33,7 @@ ul{/**/
 }
 
 .image-resize-mode{
-    width: 100px;
+    width: 150px;
 }
 
 /*a:hover {
@@ -705,20 +705,22 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
-.tight-width-whitespace {
+/*.tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
+}*/
 
 h1 {/*point avant h1 enlevé*/
-    font-size: 35px;
-    text-transform: uppercase;
+    font-size: 44px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 20px;
     /*font-family: "Open Sans";*/
 }
 
@@ -737,16 +739,18 @@ h1 {/*point avant h1 enlevé*/
 }
 
 h2 {
-    font-size: 25px;/**/
+    font-size: 28px;/**/
     font-weight: 700;/**/
     text-transform: uppercase;
     /*line-height: 1.4em;*/
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;/**/
+    font-size: 16px;
+    
     font-weight: 700;
+    margin: 0;/**/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*color: #333333!important;*/
 }
 
