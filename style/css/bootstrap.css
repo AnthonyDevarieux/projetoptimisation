@@ -3428,7 +3428,7 @@ html {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height : 340px;
     }
-    @media (device-width) and (orientation: landscape) {
+    @media (width) and (orientation: landscape) {
     .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height : 200px;
     }
